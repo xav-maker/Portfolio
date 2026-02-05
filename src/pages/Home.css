@@ -1,0 +1,224 @@
+.home {
+  min-height: 100%;
+}
+
+.hero {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  background: var(--gradient-hero);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative elements */
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(249, 115, 22, 0.15) 0%, transparent 70%);
+  border-radius: 50%;
+  animation: float 6s ease-in-out infinite;
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  bottom: -30%;
+  left: -10%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(251, 191, 36, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+  animation: float 8s ease-in-out infinite reverse;
+}
+
+.hero-content {
+  max-width: 750px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0 0 1rem;
+  animation: fadeInUp 0.8s ease-out;
+  position: relative;
+  display: inline-block;
+}
+
+.hero-name::before,
+.hero-name::after {
+  content: '—';
+  margin: 0 0.75rem;
+  opacity: 0.5;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin: 0 0 1rem;
+  line-height: 1.1;
+  background: linear-gradient(135deg, var(--color-text), var(--color-primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin: 0 0 1.5rem;
+  animation: fadeInUp 0.8s ease-out 0.1s both;
+  position: relative;
+  display: inline-block;
+}
+
+.hero-subtitle::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 3px;
+  background: var(--gradient-warm);
+  border-radius: 3px;
+}
+
+.hero-description {
+  font-size: 1.15rem;
+  color: var(--color-text-muted);
+  line-height: 1.8;
+  margin: 0 0 2.5rem;
+  animation: fadeInUp 0.8s ease-out 0.2s both;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  animation: fadeInUp 0.8s ease-out 0.3s both;
+}
+
+.hero-buttons a {
+  text-decoration: none;
+}
+
+.skills-section {
+  padding: 6rem 2rem;
+  background: var(--color-bg);
+  position: relative;
+}
+
+.skills-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: linear-gradient(to bottom, var(--color-bg-warm), transparent);
+  pointer-events: none;
+}
+
+.section-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: var(--color-text);
+  text-align: center;
+  margin: 0 0 1rem;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: var(--gradient-warm);
+  border-radius: 4px;
+  margin: 1rem auto 0;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: var(--color-text-muted);
+  margin-bottom: 3rem;
+  font-size: 1.1rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 3rem auto 0;
+}
+
+/* Stagger animation for skill cards */
+.skills-grid > *:nth-child(1) { animation: fadeInUp 0.5s ease-out 0.1s both; }
+.skills-grid > *:nth-child(2) { animation: fadeInUp 0.5s ease-out 0.15s both; }
+.skills-grid > *:nth-child(3) { animation: fadeInUp 0.5s ease-out 0.2s both; }
+.skills-grid > *:nth-child(4) { animation: fadeInUp 0.5s ease-out 0.25s both; }
+.skills-grid > *:nth-child(5) { animation: fadeInUp 0.5s ease-out 0.3s both; }
+.skills-grid > *:nth-child(6) { animation: fadeInUp 0.5s ease-out 0.35s both; }
+.skills-grid > *:nth-child(7) { animation: fadeInUp 0.5s ease-out 0.4s both; }
+.skills-grid > *:nth-child(8) { animation: fadeInUp 0.5s ease-out 0.45s both; }
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.25rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+  }
+
+  .skills-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 3rem 1.5rem;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+}

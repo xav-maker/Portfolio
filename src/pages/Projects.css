@@ -1,0 +1,63 @@
+.projects-page {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: calc(100vh - 200px);
+}
+
+.page-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--color-text);
+  text-align: center;
+  margin: 0 0 0.5rem;
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.page-subtitle {
+  font-size: 1.1rem;
+  color: var(--color-text-muted);
+  text-align: center;
+  margin: 0 0 3rem;
+  animation: fadeInUp 0.6s ease-out 0.1s both;
+  position: relative;
+}
+
+.page-subtitle::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--gradient-warm);
+  border-radius: 3px;
+  margin: 1.5rem auto 0;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+/* Stagger animation for project cards */
+.projects-grid > *:nth-child(1) { animation: fadeInUp 0.5s ease-out 0.1s both; }
+.projects-grid > *:nth-child(2) { animation: fadeInUp 0.5s ease-out 0.2s both; }
+.projects-grid > *:nth-child(3) { animation: fadeInUp 0.5s ease-out 0.3s both; }
+.projects-grid > *:nth-child(4) { animation: fadeInUp 0.5s ease-out 0.4s both; }
+.projects-grid > *:nth-child(5) { animation: fadeInUp 0.5s ease-out 0.5s both; }
+.projects-grid > *:nth-child(6) { animation: fadeInUp 0.5s ease-out 0.6s both; }
+
+@media (max-width: 768px) {
+  .projects-page {
+    padding: 3rem 1.5rem;
+  }
+
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}

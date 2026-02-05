@@ -1,0 +1,41 @@
+[
+  {
+    "id": "ecommerce-platform",
+    "title": "Plateforme E-commerce",
+    "shortDescription": "Application e-commerce complète avec panier, paiement et gestion des commandes.",
+    "fullDescription": "Développement d'une plateforme e-commerce moderne et performante. L'application comprend un catalogue produits avec filtres avancés, un système de panier persistant, l'intégration de Stripe pour les paiements sécurisés, et un tableau de bord administrateur pour la gestion des produits et commandes. Architecture scalable avec mise en cache Redis pour des performances optimales.",
+    "technologies": ["React", "Node.js", "TypeScript", "PostgreSQL", "Stripe", "Redis"],
+    "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
+    "demoUrl": "https://example.com/demo",
+    "githubUrl": "https://github.com/example/ecommerce"
+  },
+  {
+    "id": "task-management-app",
+    "title": "Application de Gestion de Tâches",
+    "shortDescription": "Outil collaboratif de gestion de projets avec tableaux Kanban en temps réel.",
+    "fullDescription": "Application de gestion de tâches inspirée de Trello, permettant aux équipes de collaborer efficacement. Fonctionnalités clés : tableaux Kanban avec drag & drop, assignation de tâches, deadlines avec notifications, commentaires et pièces jointes, et synchronisation en temps réel via WebSockets. Interface intuitive et responsive pour une utilisation sur tous les appareils.",
+    "technologies": ["React", "Next.js", "TypeScript", "MongoDB", "Socket.io"],
+    "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
+    "demoUrl": "https://example.com/tasks",
+    "githubUrl": "https://github.com/example/tasks"
+  },
+  {
+    "id": "mobile-fitness-app",
+    "title": "Application Mobile Fitness",
+    "shortDescription": "Application mobile de suivi d'entraînements et de nutrition.",
+    "fullDescription": "Application mobile cross-platform développée avec React Native pour le suivi des entraînements sportifs et de la nutrition. Fonctionnalités : création de programmes personnalisés, suivi des performances avec graphiques, bibliothèque d'exercices avec vidéos, calculateur de macros et synchronisation avec les montres connectées. Backend Python avec FastAPI pour l'API REST.",
+    "technologies": ["React Native", "TypeScript", "Python", "FastAPI", "PostgreSQL"],
+    "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&h=600&fit=crop",
+    "demoUrl": "https://example.com/fitness",
+    "githubUrl": "https://github.com/example/fitness"
+  },
+  {
+    "id": "dashboard-analytics",
+    "title": "Dashboard Analytics",
+    "shortDescription": "Tableau de bord d'analyse de données avec visualisations interactives.",
+    "fullDescription": "Dashboard d'analyse de données business avec visualisations interactives et rapports personnalisables. Connexion à multiples sources de données (API, bases de données, fichiers CSV), création de widgets personnalisés, export PDF des rapports et alertes automatisées. Interface moderne avec thème sombre/clair et graphiques temps réel.",
+    "technologies": ["React", "TypeScript", "C#", ".NET", "SQL Server", "D3.js"],
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    "demoUrl": "https://example.com/dashboard"
+  }
+]
