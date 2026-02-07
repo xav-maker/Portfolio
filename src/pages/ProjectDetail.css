@@ -87,7 +87,7 @@
 
 .github-link {
   background: var(--color-text);
-  color: white;
+  color: var(--color-bg);
 }
 
 .github-link:hover {

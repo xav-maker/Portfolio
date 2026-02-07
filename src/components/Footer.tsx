@@ -9,11 +9,11 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-content">
           <p className="footer-text">
-            &copy; {currentYear} Portfolio. Tous droits réservés.
+            Xavier Coll -  {currentYear} Portfolio.
           </p>
           <div className="footer-social">
             <a
-              href="https://github.com"
+              href="https://github.com/xav-maker"
               target="_blank"
               rel="noopener noreferrer"
               className="social-link"
@@ -22,7 +22,7 @@ function Footer() {
               <FiGithub />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/xavier-coll-5740421ab/"
               target="_blank"
               rel="noopener noreferrer"
               className="social-link"
@@ -31,7 +31,7 @@ function Footer() {
               <FiLinkedin />
             </a>
             <a
-              href="mailto:email@example.com"
+              href="mailto:xaviercoll.dev@gmail.com"
               className="social-link"
               aria-label="Email"
             >

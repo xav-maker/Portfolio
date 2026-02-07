@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { FiMenu, FiX } from 'react-icons/fi'
+import { FiMenu, FiX, FiSun, FiMoon } from 'react-icons/fi'
+import { useTheme } from '../context/ThemeContext'
 import './Header.css'
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const location = useLocation()
+  const { theme, toggleTheme } = useTheme()
 
   const isActive = (path: string) => location.pathname === path
 
@@ -20,9 +22,19 @@ function Header() {
           Portfolio
         </Link>
 
-        <button className="menu-toggle" onClick={toggleMenu} aria-label="Menu">
-          {isMenuOpen ? <FiX /> : <FiMenu />}
-        </button>
+        <div className="header-actions">
+          <button 
+            className="theme-toggle" 
+            onClick={toggleTheme} 
+            aria-label={theme === 'light' ? 'Activer le mode sombre' : 'Activer le mode clair'}
+          >
+            {theme === 'light' ? <FiMoon /> : <FiSun />}
+          </button>
+
+          <button className="menu-toggle" onClick={toggleMenu} aria-label="Menu">
+            {isMenuOpen ? <FiX /> : <FiMenu />}
+          </button>
+        </div>
 
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
           <Link

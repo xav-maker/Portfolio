@@ -11,6 +11,7 @@
   background: var(--gradient-hero);
   position: relative;
   overflow: hidden;
+  transition: background 0.3s ease;
 }
 
 /* Decorative elements */
@@ -122,6 +123,7 @@
   padding: 6rem 2rem;
   background: var(--color-bg);
   position: relative;
+  transition: background 0.3s ease;
 }
 
 .skills-section::before {

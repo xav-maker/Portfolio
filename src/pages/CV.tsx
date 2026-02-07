@@ -1,49 +1,48 @@
-import { FiDownload, FiMail, FiMapPin, FiGlobe } from 'react-icons/fi'
+import { FiDownload, FiMail, FiMapPin } from 'react-icons/fi'
 import Button from '../components/Button'
 import './CV.css'
 
 const experiences = [
   {
-    title: 'Développeur Web Freelance',
+    title: 'Développeur Full Stack Freelance',
     company: 'Indépendant',
-    period: '2022 - Présent',
+    period: '2024 - Présent',
     description:
-      'Conception et développement d\'applications web sur mesure pour divers clients. Gestion de projets de A à Z, de l\'analyse des besoins à la mise en production.',
-    technologies: ['React', 'Node.js', 'TypeScript', 'Next.js', 'PostgreSQL'],
+      'Conception et développement d\'applications web sur mesure.',
+    technologies: ['React', 'Node.js', 'TypeScript', 'Next.js', 'MongoDB'],
   },
   {
-    title: 'Développeur Full-Stack',
-    company: 'Entreprise Tech',
-    period: '2020 - 2022',
-    description:
-      'Développement de fonctionnalités front-end et back-end pour une plateforme SaaS. Collaboration en équipe Agile.',
-    technologies: ['React', 'C#', '.NET', 'SQL Server'],
+    title: 'Développeur/testeur d\'applications web en alternance',
+    company: 'COPPELIS',
+    period: '2020 - 2021',
+    description:'Développement et test de 3 applications web en React, rédaction de features dans le serveur dotnet.',
+    technologies: ['React', 'C#', '.NET', 'Javascript'],
   },
 ]
 
 const education = [
   {
-    degree: 'Master en Informatique',
-    school: 'École d\'Ingénieurs',
-    period: '2018 - 2020',
-    description: 'Spécialisation en développement logiciel et architectures web.',
+    degree: 'BTS SIO',
+    school: 'Ecole IRIS',
+    period: '2020 - 2022',
+    description: 'Paris 17',
   },
   {
-    degree: 'Licence en Informatique',
-    school: 'Université',
-    period: '2015 - 2018',
-    description: 'Formation générale en informatique et programmation.',
+    degree: 'Licence en sciences sociales',
+    school: 'Institut catholique de Paris',
+    period: '2016 - 2019',
+    description: 'Economie, sociologie, science politique',
   },
 ]
 
 const skillCategories = [
   {
     category: 'Front-end',
-    skills: ['React', 'React Native', 'Next.js', 'TypeScript', 'JavaScript', 'HTML/CSS'],
+    skills: ['React', 'React Native', 'Next.js', 'TypeScript', 'JavaScript', 'HTML/CSS', 'Redux'],
   },
   {
     category: 'Back-end',
-    skills: ['Node.js', 'C#', '.NET', 'Python', 'REST APIs', 'GraphQL'],
+    skills: ['Node.js', 'C#', '.NET', 'Python', 'REST APIs'],
   },
   {
     category: 'Base de données',
@@ -51,8 +50,16 @@ const skillCategories = [
   },
   {
     category: 'Outils & DevOps',
-    skills: ['Git', 'Docker', 'CI/CD', 'AWS', 'Vercel'],
+    skills: ['Git', 'Docker', 'Vercel'],
   },
+  {
+    category: 'Langues',
+    skills: ['Français ( natif )', 'Anglais ( professionnel )', 'Espagnol ( notions )']
+  },
+  {
+    category: 'Autres',
+    skills: ['Gimp', 'Excel', 'Méthode Agile', 'Veille Technique']
+  }
 ]
 
 function CV() {
@@ -68,18 +75,14 @@ function CV() {
           <h2 className="cv-title">Développeur Web Full-Stack</h2>
           <p className="cv-summary">
             Développeur passionné avec plusieurs années d'expérience dans la conception
-            d'applications web modernes. Spécialisé dans l'écosystème JavaScript/TypeScript
-            et les technologies .NET.
+            d'applications web modernes. Spécialisé dans l'écosystème JavaScript/TypeScript.
           </p>
           <div className="cv-contact">
             <span className="contact-item">
-              <FiMail /> email@example.com
+              <FiMail /> xaviercoll.dev@gmail.com
             </span>
             <span className="contact-item">
               <FiMapPin /> Paris, France
-            </span>
-            <span className="contact-item">
-              <FiGlobe /> www.votresite.com
             </span>
           </div>
         </div>

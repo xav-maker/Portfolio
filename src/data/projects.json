@@ -2,9 +2,9 @@
   {
     "id": "ecommerce-platform",
     "title": "Plateforme E-commerce",
-    "shortDescription": "Application e-commerce complète avec panier, paiement et gestion des commandes.",
-    "fullDescription": "Développement d'une plateforme e-commerce moderne et performante. L'application comprend un catalogue produits avec filtres avancés, un système de panier persistant, l'intégration de Stripe pour les paiements sécurisés, et un tableau de bord administrateur pour la gestion des produits et commandes. Architecture scalable avec mise en cache Redis pour des performances optimales.",
-    "technologies": ["React", "Node.js", "TypeScript", "PostgreSQL", "Stripe", "Redis"],
+    "shortDescription": "ShopDemo est une plateforme e-commerce complète conçue comme une boutique en ligne moderne, pensée pour répondre à des besoins business réels : vendre, gérer des produits, suivre des commandes et administrer l’activité.",
+    "fullDescription": "Le projet intègre :   un catalogue produits avancé avec recherche et filtres,   un panier persistant et un parcours de commande fluide,   un paiement simulé avec une expérience proche du réel,   un espace administrateur pour gérer produits et commandes,   une architecture performante et évolutive, adaptée à une mise en production,   ShopDemo illustre le type de solution que je peux concevoir et livrer pour des projets e-commerce ou applicatifs, de la conception à une version exploitable,   une architecture performante et évolutive, adaptée à une mise en production. ShopDemo illustre le type de solution que je peux concevoir et livrer pour des projets e-commerce ou applicatifs, de la conception à une version exploitable.",
+    "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Stripe", "MongoDB", "Zustand"],
     "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
     "demoUrl": "https://example.com/demo",
     "githubUrl": "https://github.com/example/ecommerce"
@@ -13,27 +13,16 @@
     "id": "task-management-app",
     "title": "Application de Gestion de Tâches",
     "shortDescription": "Outil collaboratif de gestion de projets avec tableaux Kanban en temps réel.",
-    "fullDescription": "Application de gestion de tâches inspirée de Trello, permettant aux équipes de collaborer efficacement. Fonctionnalités clés : tableaux Kanban avec drag & drop, assignation de tâches, deadlines avec notifications, commentaires et pièces jointes, et synchronisation en temps réel via WebSockets. Interface intuitive et responsive pour une utilisation sur tous les appareils.",
-    "technologies": ["React", "Next.js", "TypeScript", "MongoDB", "Socket.io"],
+    "fullDescription": "L’application permet de : créer des tableaux Kanban personnalisés par équipe, organiser les tâches par colonnes avec un drag & drop fluide, assigner des tâches, définir des priorités et des échéances, collaborer en temps réel via commentaires, notifications et présence en ligne, centraliser les échanges et les documents liés aux tâches. Pensée pour un usage professionnel, l’application repose sur une architecture temps réel, une authentification sécurisée et une interface responsive adaptée à tous les supports.",
+    "technologies": ["React", "TypeScript", "MongoDB", "Express", "Socket.io"],
     "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
     "demoUrl": "https://example.com/tasks",
     "githubUrl": "https://github.com/example/tasks"
-  },
-  {
-    "id": "mobile-fitness-app",
-    "title": "Application Mobile Fitness",
-    "shortDescription": "Application mobile de suivi d'entraînements et de nutrition.",
-    "fullDescription": "Application mobile cross-platform développée avec React Native pour le suivi des entraînements sportifs et de la nutrition. Fonctionnalités : création de programmes personnalisés, suivi des performances avec graphiques, bibliothèque d'exercices avec vidéos, calculateur de macros et synchronisation avec les montres connectées. Backend Python avec FastAPI pour l'API REST.",
-    "technologies": ["React Native", "TypeScript", "Python", "FastAPI", "PostgreSQL"],
-    "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&h=600&fit=crop",
-    "demoUrl": "https://example.com/fitness",
-    "githubUrl": "https://github.com/example/fitness"
-  },
-  {
+  },{
     "id": "dashboard-analytics",
-    "title": "Dashboard Analytics",
-    "shortDescription": "Tableau de bord d'analyse de données avec visualisations interactives.",
-    "fullDescription": "Dashboard d'analyse de données business avec visualisations interactives et rapports personnalisables. Connexion à multiples sources de données (API, bases de données, fichiers CSV), création de widgets personnalisés, export PDF des rapports et alertes automatisées. Interface moderne avec thème sombre/clair et graphiques temps réel.",
+    "title": "Xavier's Analytics",
+    "shortDescription": "Xavier’s Analytics est une application de Business Intelligence permettant de centraliser, analyser et visualiser des données métier au sein de tableaux de bord interactifs.",
+    "fullDescription": "La plateforme permet de : connecter plusieurs sources de données (bases SQL, APIs, fichiers CSV), créer des dashboards personnalisables avec widgets en drag & drop, suivre des indicateurs clés en temps réel, générer des rapports PDF professionnels, configurer des alertes automatisées basées sur des seuils métier. Pensée pour des usages professionnels, l’application propose une interface moderne (dark/light), une mise à jour temps réel des données et un système d’authentification sécurisé. Xavier’s Analytics s’inscrit dans une logique d’outil décisionnel destiné aux PME, équipes data ou directions métier, pour faciliter le pilotage d’activité et la prise de décision.",
     "technologies": ["React", "TypeScript", "C#", ".NET", "SQL Server", "D3.js"],
     "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
     "demoUrl": "https://example.com/dashboard"
