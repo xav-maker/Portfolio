@@ -6,8 +6,7 @@
     "fullDescription": "Le projet intègre :   un catalogue produits avancé avec recherche et filtres,   un panier persistant et un parcours de commande fluide,   un paiement simulé avec une expérience proche du réel,   un espace administrateur pour gérer produits et commandes,   une architecture performante et évolutive, adaptée à une mise en production,   ShopDemo illustre le type de solution que je peux concevoir et livrer pour des projets e-commerce ou applicatifs, de la conception à une version exploitable,   une architecture performante et évolutive, adaptée à une mise en production. ShopDemo illustre le type de solution que je peux concevoir et livrer pour des projets e-commerce ou applicatifs, de la conception à une version exploitable.",
     "technologies": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Stripe", "MongoDB", "Zustand"],
     "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
-    "demoUrl": "https://shop.xaviercoll.dev",
-    "githubUrl": "https://github.com/example/ecommerce"
+    "demoUrl": "https://shop.xaviercoll.dev"
   },
   {
     "id": "task-management-app",
@@ -16,8 +15,7 @@
     "fullDescription": "L’application permet de : créer des tableaux Kanban personnalisés par équipe, organiser les tâches par colonnes avec un drag & drop fluide, assigner des tâches, définir des priorités et des échéances, collaborer en temps réel via commentaires, notifications et présence en ligne, centraliser les échanges et les documents liés aux tâches. Pensée pour un usage professionnel, l’application repose sur une architecture temps réel, une authentification sécurisée et une interface responsive adaptée à tous les supports.",
     "technologies": ["React", "TypeScript", "MongoDB", "Express", "Socket.io"],
     "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop",
-    "demoUrl": "https://kanban.xaviercoll.dev",
-    "githubUrl": "https://github.com/example/tasks"
+    "demoUrl": "https://kanban.xaviercoll.dev"
   },{
     "id": "dashboard-analytics",
     "title": "Xavier's Analytics",
